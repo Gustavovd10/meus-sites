@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&family=Roboto+Slab:wght@200&display=swap');
+
+#titulo-inicial{
+    background-color: rgb(102, 7, 7);
+    height: 50px;
+    width: 100%;
+}
+
+#titulo-inicial h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#navbar{
+    background-color: rgba(51, 24, 24, 0.575);
+    height: 45px;
+}
+
+#navbar ul {
+    list-style: none;
+    padding-left: 20px;
+    text-align: center;
+
+}
+
+.redes-sociais {
+    display: inline-block;
+    padding: 10px 45px;
+}
+
+main{
+    background-color: rgba(51, 24, 24, 0.24);
+}
+
+main h2{
+    text-align: center;
+    color: #fff;
+
+}
+
+.foto-lado {
+    float: left;
+}
+
+.container--1{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 3vw);
+    grid-gap: 15px;
+    background-color: rgba(51, 24, 24, 0.24);
+    margin: 30px 10px;
+
+}
+
+/*.gallery__item {border: 2px solid #000;} somente a borda */
+
+.gallery__item p {
+    font-size: 1.05em;
+    text-align: justify;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+
+.container--2{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 3vw);
+    grid-gap: 15px;
+    background-color: rgb(170, 82, 82);
+    margin:30px 10px
+}
+
+.gallery__item--3{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 7;
+
+}
+
+.gallery__item--4{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
